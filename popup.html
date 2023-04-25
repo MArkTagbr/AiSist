@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assistente Pessoal</title>
+    <link rel="stylesheet" href="estilos/style.css">
+<script src="C:\Users\chefm\Desktop\AiGendor\Moment.js"></script>
+
+  </head>
+  <body>
+    <div class="header">
+      <h1>Assistente Pessoal</h1>
+    </div>
+    <div class="container">
+      <div class="section">
+        <h2>Tarefas</h2>
+        <ul class="lista-tarefas">
+          <!-- Lista de tarefas -->
+        </ul>
+        <form id="form-tarefa">
+          <input type="text" id="input-tarefa" placeholder="Adicionar tarefa...">
+          <button type="submit">Adicionar</button>
+        </form>
+      </div>
+      <div class="section">
+        <h2>Agenda</h2>
+        <ul class="lista-compromissos">
+          <!-- Lista de compromissos -->
+        </ul>
+        <form id="form-compromisso">
+          <input type="text" id="input-compromisso" placeholder="Adicionar compromisso...">
+          <input type="datetime-local" id="data-hora-compromisso" placeholder="Data e hora...">
+          <button type="submit">Adicionar</button>
+        </form>
+      </div>
+      <div class="section">
+        <h2>Lembretes</h2>
+        <ul class="lista-lembretes">
+          <!-- Lista de lembretes -->
+        </ul>
+        <form id="form-lembrete">
+          <input type="text" id="input-lembrete" placeholder="Adicionar lembrete...">
+          <input type="datetime-local" id="data-hora-lembrete" placeholder="Data e hora...">
+          <button type="submit">Adicionar</button>
+        </form>
+      </div>
+      <div class="section">
+        <h2>Contatos</h2>
+        <ul class="lista-contatos">
+          <!-- Lista de contatos -->
+        </ul>
+        <form id="form-contato">
+          <input type="text" id="input-contato-nome" placeholder="Nome">
+          <input type="text" id="input-contato-email" placeholder="E-mail">
+          <input type="text" id="input-contato-empresa" placeholder="Empresa">
+          <input type="text" id="input-contato-linkedin" placeholder="Perfil do LinkedIn">
+          <button type="submit">Adicionar</button>
+        </form>
+      </div>
+    </div>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/linkedin.js"></script>
+    <script src="scripts/notificacoes.js"></script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+{
+"name": "Meu Assistente Pessoal",
+"description": "Uma extensão do Google Chrome que ajuda a gerenciar tarefas, agendar compromissos e lembrar de atividades importantes.",
+"version": "1.0",
+"manifest_version": 3,
+"icons": {
+"128": "icon.png"
+},
+"background": {
+"service_worker": "background.js"
+},
+"permissions": [
+"storage",
+"activeTab",
+"alarms",
+"notifications",
+"tabs"
+],
+"action": {
+"default_popup": "popup.html",
+"default_icon": {
+"16": "icon.png",
+"24": "icon.png",
+"32": "icon.png"
+}
+}
+}
